@@ -107,7 +107,7 @@ const OnBoard = () => {
                             }
                         </ScrollView >
                     </View>
-                            <View  className="absolute flex-1 z-10 bg-[#E8EAED] py-2 bottom-[10%] ml-[20px] flex items-center justify-center flex-row">
+                            <View  className="absolute z-10 bg-[#E8EAED] py-2 bottom-[4%] ml-[20px] flex items-center justify-center flex-row">
                                     <TextInput  placeholder="Write a task" onChangeText={setTask} value={task} className="p-4 w-[246px] h-[45px] rounded-[10px] shadow bg-white flex items-center justify-center  text-[14px] font-normal" />
                                     <TouchableOpacity onPress={handlerAddTask} className="w-[60px] h-[60px] ml-[20px] mr-[29px] rounded-full bg-white shadow flex items-center justify-center">
                                         <Text>Add</Text>
